@@ -2,19 +2,19 @@
 /**
  * reverse_array - reverse array of integers
  * @a: array
- * @n: number of elements of array
+ * @n: number of elements to swap
  *
  * Return: void
  */
 void reverse_array(int *a, int n)
 {
 	int i;
-	int t;
+	int j;
 
 	for (i = 0; i < n--; i++)
 	{
-		t = a[i];
+		j = a[i];
 		a[i] = a[n];
-		a[n] = t;
+		a[n] = j;
 	}
 }
