@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * _strspn - Entry point
- * @s: input
- * @accept: input
- * Return: Always 0 (Success)
+ * @s: first segment
+ * @accept: accepted bytes
+ * Return: no of accepted bytes
  */
 unsigned int _strspn(char *s, char *accept)
 {

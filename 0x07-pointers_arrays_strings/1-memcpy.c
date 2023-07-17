@@ -2,7 +2,7 @@
 /**
  *_memcpy - a function that copies memory area
  *@dest: memory where is stored
- *@src: memory where is copied
+ *@src: source memory
  *@n: number of bytes
  *
  *Return: copied memory with n bytes changed
